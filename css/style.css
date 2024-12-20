@@ -450,4 +450,74 @@ header nav ul li a:hover{
 .join button.adoptBtn {
         background-color: var(--gray);
 }
+
+
 /* joinUsSection End here */
+/* Footer starts here */
+
+
+footer{
+        background-color: #181818;
+        color: #7f7f7f;
+        padding: 50px 0;
+        font-size: 14px;
+        
+}
+footer .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 50px;
+}
+
+footer .title{
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-bottom: 2px solid;
+        margin-bottom: 30px;
+        padding: 0 0 5px 0;      
+
+}
+
+footer p{
+        margin-bottom: 10px;
+}
+
+footer .linksContainer{
+        list-style-type: none;
+}
+
+footer .linksContainer ul li a{
+        text-decoration: none;
+        color: #7f7f7f;
+        margin-bottom: 10px;
+        display:inline-block;
+}
+
+footer .newsLetterContainer img{
+        height: 40px;
+        margin-bottom: 11px;
+}
+
+footer .newsLetterContainer input{
+        background-color: transparent;
+        border: 1px solid #7f7f7f;
+        outline: none;
+        padding: 10px 15px;
+        width: 100%;
+        margin-top: 10px;
+        color: #ccc;
+        border-radius: 30px;
+}
+/* Footer ends here */
+/* Responsive Code start from here */
+
+@media screen  and (max-width: 1140px){
+        .container{
+                width: 100%;
+                padding: 0 15px;
+                
+        }
+}
+
+/* Responsive Code Ends here */
